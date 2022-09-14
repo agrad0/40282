@@ -69,15 +69,19 @@
 }
 
 .navi-menu ul .menu-item {
-    margin: 0 5px;
     padding: 5px;
+}
+
+.navi-menu ul .menu-item a {
+    padding: 10px;
     color: white;
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;   
     transition: all; 
 }
 
-.navi-menu ul .menu-item:hover {
+.navi-menu ul .menu-item a:hover {
     background-color: #643a79;
 }
 
@@ -444,6 +448,8 @@
     }
     .navi-menu ul {
         justify-content: center;
+        flex-basis: 25%;
+        flex-wrap: wrap;
     }
 } 
 
